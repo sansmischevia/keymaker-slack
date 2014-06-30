@@ -1,0 +1,19 @@
+{
+  "name": "keymaker-slack",
+  "version": "0.0.1",
+  "description": "If one fails, all fail.",
+  "main": "index.js",
+  "dependencies": {
+    "restify": "*",
+    "node-slack": "0.0.3",
+    "request": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: Keymaker tests in Production\" && exit 1"
+  },
+  "repository": "git@github.com:sansmischevia/keymaker-slack.git",
+  "author": "Bryant Chou <chou.bryant@gmail.com>",
+  "license": "ZEN",
+  "readmeFilename": "README.md"
+}
