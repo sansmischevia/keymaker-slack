@@ -1,5 +1,5 @@
 var Slack = require('node-slack');
-var slack = new Slack('webflow', 'jiMiKG9OCs5iUSMzUqbZcf1d');
+var slack = new Slack('webflow', process.env.SLACK_TOKEN);
 var restify = require('restify');
 var request = require('request');
 
